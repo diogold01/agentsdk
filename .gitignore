@@ -6,6 +6,7 @@
 # Python
 __pycache__/
 *.py[cod]
+*.venv/
 .venv/
 venv/
 .pytest_cache/
@@ -15,6 +16,13 @@ venv/
 
 # Planos gerados pelo agente (dados pessoais)
 planos/
+
+# Instruções locais de IA e governança
+GLOBAL_RULES.md
+GEMINI.md
+CLAUDE.md
+rules.md
+context.md
 
 # Sistema e editores
 .DS_Store
