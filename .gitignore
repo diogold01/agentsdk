@@ -1,4 +1,4 @@
-# Ambiente e segredos (API Key do AI Studio!)
+# Ambiente e segredos
 .env
 .env.*
 *.key.json
@@ -14,18 +14,12 @@ venv/
 # ADK
 .adk/
 
-# Planos gerados pelo agente (dados pessoais)
+# Planos e arquivos locais
 planos/
-
-# Instruções locais de IA e governança
-GLOBAL_RULES.md
-GEMINI.md
-CLAUDE.md
-rules.md
-context.md
 
 # Sistema e editores
 .DS_Store
+Thumbs.db
 .vscode/
 .idea/
 *.zip
